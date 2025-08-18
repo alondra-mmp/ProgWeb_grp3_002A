@@ -39,8 +39,21 @@ header {
 }
  
 /* Ajusta la imagen dentro del header */
-header img {
-    height: 60px;
+header {
+       <div class="logo_container">
+            <img src="img/baner.jpg" alt="Logo del sitio" class="logo">
+        </div>
+        
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="survival.html">Survival</a>
+            <a href="rpg.html">RPG</a>
+            <a href="horror.html">Horror</a>
+            <a href="estrategia.html">Estrategia</a>
+            <a href="vintage.html">Vintage</a>
+            <a href="#">Quienes Somos</a>
+        </nav>
+    
 }
 
 /* Estilos de la barra de navegación */
@@ -157,4 +170,5 @@ footer {
     .logo_container span {
         font-size: 1.2em;
     }
+
 }
